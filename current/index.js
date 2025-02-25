@@ -37,7 +37,7 @@ mongoose.connect(MONGODB_URI, {
 
 // Routes
 app.get('/', (req, res) => {
-    console.log('index', req.query.type)
+    console.log('index!!', req.query.type)
     res.send({status: 'xx222xx', MONGODB_URI, cd})
 })
 // Create a new item
